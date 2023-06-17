@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('image/heather-barnes-gCmkY_c5lTg-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* --------header---------- */
+.busi h1{
+    font-size: 65px;
+    font-weight: 100;
+}
+.navbar{
+    background: #490909;
+    margin-top: 5%;
+}
+
+
+.navbar-nav li a{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+/* --------header---------- */
+
+/* --------HOME------------ */
+
+.home{
+    margin-top: 5%;
+}
+.free{
+    background: #F6E1C5;
+    height: 380px;
+    width: 500px;
+    top: 45px;
+    left: 100px;
+}
+
+.free h2{
+    color: black;
+    font-weight: 700;
+    margin-top: 15%;
+}
+
+.free h3{
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.free p{
+    font-weight: 100;
+}
+
+.btn{
+    position: relative;
+    top: 5%;
+    left: 40%;
+
+}
+.image img{
+    min-height: 480px;
+}
+
+#prom{
+    background: #A5342BB0 69%;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.promis{
+    background: #F6E1C5;
+    padding: 10%;
+}
+
+.tire{
+    border: 1px solid #fff;
+    padding: 10px  ;
+}
+
+.promis h2{
+    color: black;
+    font-weight: 700;
+    margin-top: 2%;
+}
+
+.promis h3{
+    font-size: 55px;
+    font-weight: 100;
+}
+
+.promis p{
+    width: 45%;
+    margin-left: 27%;
+    text-align: center;
+}
+
+.footer{
+    background: #311919 79%;
+    margin-top: 10%;
+}
+
+/* ------------SECTION ABOUT----------- */
+.about-1{
+    background: #F6E1C5;
+    /* padding: 3% 2%; */
+    top: -45px;
+}
+
+.about-1 h2{
+    font-size: 15px;
+}
+
+.about-1 p{
+    font-size: 15px;
+}
+
+/* -------------SECTION PRODUCT----------- */
+.one-1{
+    background: #F6E1C5;
+    padding: 4%;
+    left: 20%;
+    top: 60px;
+}
+
+.two{
+    background: #F6E1C5;
+    padding: 4%;
+    left: 5%;
+    top: 60px;
+}
+
+.mil{
+    background: #F6E1C5;
+    padding: 3%;
+    left: 10%;
+    top: -150px;
+}
+
+.bas{
+    background: #F6E1C5;
+    padding: 3%;
+    left: ;
+    top: -150px;
+}
+/* -------------STORE------------ */
+.store{
+    background: #A5342BB0 69%;
+    margin-top: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/* .store{ 
+    margin-top: 200px; 
+    margin-bottom: 200px; 
+    width: 100%; 
+    padding-bottom: 74px; 
+    padding-top: 74px;
+    background: rgba(165, 52, 43, 0.69);
+} */
+
+@media screen and (max-width:  778px){
+    .busi{
+        display: none;
+    }
+    
+    .rever{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .free{
+        padding: 3px;
+        left: -2%;
+    }
+
+    #prom{
+        margin-top: 20%;
+    }
+
+    .promis{
+        padding: 1px;
+    }
+
+    .btn{
+        left: 30%;
+    }
+
+    .about-1{
+        padding: 3px;
+        top: 15px;
+    }
+
+    
+}
