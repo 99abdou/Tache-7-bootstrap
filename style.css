@@ -271,22 +271,28 @@ body{
         text-align: center;
         bottom: 10px;
     }
+
     #section1 .box-bottom{
         top: 10px;
     }
+
     #section2 .box-bottom{
         top: 10px;
     }
+
     #section3 .box-bottom{
         top: 10px;
     }
+
     .box-top .p1{
         font-size: medium;
     }
+
     .box-top .p2{
         font-size: large;
         text-align: center;
     }
+    
     .box-bottom p{
         font-size: 16px;
         font-weight: 400;
