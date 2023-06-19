@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="style.css">
     <!----- Bootstrap link ------->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 <body>
     <header>
@@ -21,7 +23,7 @@
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <i class="fa fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
               <ul class="navbar-nav">
@@ -46,34 +48,43 @@
     </header>
 <!-------- Section home ------->
     
-    <section class="home">
-        <div class="container mt-5">
-            <div class="row rever">
-                <div class="col-md-4 free rounded position-relative">
-                  <h2 class="text-center fs-5">FRESH COFEE</h2>
-                  <h3 class="text-center fw-lighter">WORK <br>DRINKING</h3>
-                    <p class="text-center lh-1 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin nunc felis, nullam ornare. Amet vestibulum porttitor vel mauris dolor. Sodales eu aliquam leo sed.</p>
-                    <button class="btn btn-danger p-4">Visit Us Today</button>  
-                </div>
-
-                <div class="col-md-6 image">
-                    <img src="image/image-1.jpg" class="img-fluid" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="prom">
-      <div class="container">
-        <div class=" justify-content-center tire rounded">
-          <div class="promis rounded">
-            <h2 class="text-center fs-5">OUR PROMISE</h2>
-            <h3 class="text-center fw-lighter">TO YOU</h3>
-              <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin nunc felis, nullam ornare. Amet vestibulum porttitor vel mauris dolor. Sodales eu aliquam leo sed.</p> 
+<section id="home">
+  <div class="container">
+      <div class="row justify-content-start d-flex flex-column flex-lg-row">
+          <div class="col-12 col-md-6 text-center position-relative align-self-start align-self-lg-center two">
+            <h3>FRESH COFEE</h3>
+            <h4>WORK <br> DRINKING</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Sollicitudin nunc felis, nullam ornare.
+              Amet vestibulum porttitor vel mauris dolor. 
+              Sodales eu aliquam leo sed.
+            </p>
+            <button class="text-center position-absolute m-auto top-100 translate-middle left-50">Visit Us</button>
           </div>
-        </div>
+          <div class="col-12 col-md-6 align-self-center accueil">
+            <img src="image/image-1.jpg" alt="" class="img-fluid w-100">
+          </div>
       </div>
-    </section>
+  </div>
+</section>
+
+<section id="home2">
+  <div class="container">
+      <div class="row text-center justify-content-center">
+          <div class="col-12 text-center bordure">
+            <div class="box text-center ps-md-5 pe-md-5">
+              <h2 class="text-center">OUR PROMISE</h2>
+              <h3 class="text-center">TO YOU</h3>
+              <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. <br> 
+                Sollicitudin nunc felis, nullam ornare. <br>
+                Amet vestibulum porttitor vel mauris <br> dolor. 
+                Sodales eu aliquam leo sed.
+              </p>
+            </div>
+          </div>
+      </div>
+  </div>
+</section>
 
     <footer class="footer">
       <div class="col-12 text-center py-4 text-light fs-4">
